@@ -4,7 +4,7 @@ Annotation ducked
 '''
 
 
-from typing import Iterable, Sequence, Tuple
+from typing import List, Iterable, Sequence, Tuple
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
