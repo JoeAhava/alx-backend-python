@@ -13,7 +13,7 @@ async def wait_random(max_delay: float=10) -> float:
     wait randomly between 0 and max_delay
     '''
     delay = random.uniform(0, max_delay)
-    result = await asyncio.sleep(delay)
+    await asyncio.sleep(delay)
     return delay
 
 if __name__ == '__main__':
